@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "polyhook",
+	"version": "${version}",
+	"name": "PolyHook",
+	"description": "Grappling Hook?",
+	"authors": [
+		"unilock"
+	],
+	"contact": {
+		"sources": "https://github.com/unilock/PolyHook"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cc.unilock.polyhook.PolyHook"
+		]
+	},
+	"mixins": [
+		"polyhook.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.21",
+		"fabric-api": "*"
+	}
+}

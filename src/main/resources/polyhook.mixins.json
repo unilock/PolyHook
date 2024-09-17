@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "cc.unilock.polyhook.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityAccessor",
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
